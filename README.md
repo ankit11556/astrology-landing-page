@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Astrology Landing Page
 
-## Getting Started
+Responsive landing page built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS (ShadCN UI)**.  
+The project includes mock APIs for the Hero section and Client Testimonials.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS + ShadCN UI
+- Lucide React (Icons)
+- Swiper.js / Keen Slider (Carousel)
+
+---
+
+## 📂 Project Structure
+src/
+components/
+landing/
+Hero.tsx
+Stats.tsx
+Services.tsx
+Testimonials.tsx
+Offer.tsx
+pages/
+api/
+hero.ts
+testimonials.ts
+
+
+---
+
+## ⚡ Features
+- **Hero Section (API driven)** → Title, subtitle, CTA button, astrologer image & trust badges.
+- **Testimonials (API driven)** → Carousel with smooth sliding, autoplay & navigation arrows.
+- **Statistics Section** → Key stats (sessions, experience).
+- **Services Section** → Grid of service cards with icons & descriptions.
+- **Offer Section** → Countdown timer with CTA button.
+- Fully responsive (mobile → desktop).
+- Dark mode support (`dark:` variants).
+- Accessible (semantic HTML, alt tags, aria attributes).
+
+---
+
+## 🔧 Getting Started
+Clone the repo and run locally:
 
 ```bash
+git clone https://github.com/ankit11556/astrology-landing-page.git
+cd astrology-landing-page
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+🌐 API Endpoints
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+/api/hero → Returns hero section data
 
-## Learn More
+/api/testimonials → Returns client testimonials data
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
