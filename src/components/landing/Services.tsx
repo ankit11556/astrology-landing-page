@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = ()=>{
   return(
-    <section className="flex gap-6 py-2 justify-beteen m-10">
+    <section className="flex flex-col md:flex-row gap-6 py-y px-4  md:px-10 m-10">
       <div className="h-auto text-card-foreground flex flex-col gap-2 rounded-xl hover:shadow-lg transition-shadow border border-purple-100 text-center text-black bg-white p-4">
         <div className="flex w-ful justify-center">
         <span className="bg-purple-100  inline-block p-3 ">🔮</span>
