@@ -54,6 +54,9 @@ npm run dev
 
 Visit: http://localhost:3000
 
+## 🚀 Deployment
+👉 Live Demo: https://astrology-landing-page.vercel.app  
+
 ---
 🌐 API Endpoints
 
